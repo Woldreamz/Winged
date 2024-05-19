@@ -1,38 +1,37 @@
-# create-svelte
+<h1> Project: Winged </h1>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Description:
+Winged is a sleek and efficient calculator web application built with Svelte, TypeScript, and Node.js. Designed for simplicity and speed, Winged offers a wide range of mathematical functions, a responsive user interface, and quick calculation capabilities, making it an ideal tool for both casual and professional use.
 
-## Creating a project
+Key Features: 
 
-If you're seeing this, you've probably already done this step. Congrats!
+Basic and Advanced Calculations: Perform standard arithmetic operations as well as advanced mathematical functions like trigonometry, logarithms, and more.<br />
+Responsive Design: Enjoy a consistent and user-friendly experience on both desktop and mobile devices.<br />
+History Log: Keep track of your previous calculations with a history log feature.<br />
+Customizable Themes: Personalize the calculator interface with various themes and color schemes.<br />
+Offline Support: Use the calculator even without an internet connection, thanks to Progressive Web App (PWA) features.<br />
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Technologies Used:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Frontend: Svelte, TypeScript, SCSS <br />
+Backend: Node.js, Express.js <br />
+Database: SQLite (for storing calculation history locally) <br />
+Build Tool: Vite <br />
+Hosting: Netlify, Vercel, or other platforms (specify if any) <br />
 
-## Developing
+Installation Instructions:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clone the repository: git clone https://github.com/username/winged.git <br />
+Navigate to the project directory: cd winged <br />
+Install dependencies: npm install <br />
+Start the development server: npm run dev <br />
 
-```bash
-npm run dev
+Usage Instructions:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Access the calculator through your web browser. <br />
+Perform calculations using the on-screen keypad or your keyboard. <br />
+View your calculation history and customize the app's appearance through the settings menu. <br />
 
-## Building
+Contributions:
+I welcome contributions! Please read my contributing guide to get started. Fork the repository, create a branch, and submit a pull request.
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
